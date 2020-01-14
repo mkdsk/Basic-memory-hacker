@@ -82,7 +82,8 @@ int main()
 	std::cout << "\nEnter value to inject into Value #2: ";
 	std::cin >> input;
 	buf2 = std::stoul(input, nullptr, 0);
-
+	
+	WPMWrite();
 	system("cls");
 
 	while (true)
